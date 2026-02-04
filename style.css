@@ -207,6 +207,31 @@ body {
     font-size: 1.3rem;
 }
 
+.paper-title-link {
+    color: #2c3e50;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.paper-title-link:hover {
+    color: #3498db;
+}
+
+.link-icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease;
+}
+
+.paper-title-link:hover .link-icon {
+    transform: scale(1.1);
+}
+
 .item-card p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
