@@ -232,10 +232,6 @@ body {
     transform: scale(1.1);
 }
 
-.paper-title-link[title] {
-    cursor: pointer;
-}
-
 .item-card p {
     margin-bottom: 0.5rem;
     font-size: 1rem;
